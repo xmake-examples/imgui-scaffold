@@ -6,6 +6,7 @@ target("imgui-scaffold")
     set_kind("binary")
     add_files("src/*.cpp")
     add_packages("imgui")
+    set_languages("c++14")
 
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
